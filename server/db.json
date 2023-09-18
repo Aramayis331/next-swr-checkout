@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Nike sneakers 1",
+      "price": 50,
+      "src": "https://freepngimg.com/thumb/nike/94054-force-air-jordan-footwear-offwhite-red.png",
+      "discount": 20
+    },
+    {
+      "id": 2,
+      "name": "Nike sneakers 2",
+      "price": 80,
+      "src": "https://freepngimg.com/thumb/nike/82740-toronto-nike-black-footwear-sneakers-raptors.png"
+    },
+    {
+      "id": 3,
+      "name": "Nike sneakers 3",
+      "price": 40,
+      "src": "https://freepngimg.com/thumb/nike/82741-toronto-basketball-hiking-air-sneakers-shoe-jordan.png",
+      "discount": 10
+    },
+    {
+      "id": 4,
+      "name": "Nike sneakers 4",
+      "price": 60,
+      "src": "https://freepngimg.com/thumb/shoes/27428-5-nike-shoes-transparent-background.png"
+    }
+  ],
+  "cart": [
+    {
+      "id": 4,
+      "name": "Nike sneakers 4",
+      "price": 60,
+      "src": "https://freepngimg.com/thumb/shoes/27428-5-nike-shoes-transparent-background.png",
+      "count": 1
+    },
+    {
+      "id": 1,
+      "name": "Nike sneakers 1",
+      "price": 50,
+      "src": "https://freepngimg.com/thumb/nike/94054-force-air-jordan-footwear-offwhite-red.png",
+      "count": 1
+    }
+  ]
+}

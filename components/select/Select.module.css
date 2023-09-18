@@ -1,0 +1,37 @@
+.select {
+    color: var(--blue-500);
+    font-weight: 500;
+    font-family: inherit;
+    padding-left: 11px;
+    height: 56px;
+}
+
+.select fieldset {
+    border: 1px solid var(--blue-400);
+    border-radius: 16px;
+}
+
+.container_renderValue {
+    display: flex;
+}
+
+.icon {
+    font-size: 20px;
+    margin-right: 11px;
+    color: var(--blue-500);
+}
+
+.defaultValue {
+    color: var(--blue-500);
+}
+
+.flag_icon {
+    margin-right: 5px;
+}
+
+@media (max-width: 575px) {
+    .select {
+        padding-left: 5px;
+        height: 46px;
+    }
+}

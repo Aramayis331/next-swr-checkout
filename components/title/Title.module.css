@@ -1,0 +1,23 @@
+.title_container {
+    margin-bottom: 20px;
+}
+
+.title {
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.subTitle {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 5px;
+    color: var(--secondary);
+}
+
+@media (max-width: 575px) {
+    .title {
+        font-size: 20px;
+    }
+}

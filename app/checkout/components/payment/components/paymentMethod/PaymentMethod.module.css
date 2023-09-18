@@ -1,0 +1,48 @@
+.payment_method {
+    background: var(--white);
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.card_info {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.card_info_container > :not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.cvv_date {
+    display: flex;
+}
+
+.cvv_date > :last-child {
+    margin-left: 24px;
+}
+
+.checkbox_label {
+    color: var(--secondary);
+    font-size: 14px;
+}
+
+.checkbox_label span {
+    color: var(--primary);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media (max-width: 575px) {
+    .payment_method {
+        padding: 30px 16px;
+    }
+
+    .cvv_date {
+        flex-direction: column;
+    }
+
+    .cvv_date > :last-child {
+        margin-left: 0;
+        margin-top: 24px;
+    }
+}

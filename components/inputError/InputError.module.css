@@ -1,0 +1,6 @@
+.message {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 5px;
+    color: var(--red);
+}

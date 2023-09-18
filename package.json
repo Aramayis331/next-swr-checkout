@@ -1,0 +1,41 @@
+{
+  "name": "checkout3",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx . --fix",
+    "server": "json-server -w server/db.json -p 3331"
+  },
+  "dependencies": {
+    "@emotion/react": "11.11.1",
+    "@emotion/styled": "11.11.0",
+    "@mui/material": "5.14.9",
+    "@types/node": "18.16.3",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.1",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.4",
+    "json-server": "0.17.3",
+    "next": "13.3.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "7.46.1",
+    "react-slick": "0.29.0",
+    "slick-carousel": "1.8.1",
+    "swr": "2.2.2",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "7.0.0",
+    "@types/react-slick": "^0.23.10",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-config-react-app": "7.0.1",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-simple-import-sort": "10.0.0",
+    "prettier": "2.8.8"
+  }
+}

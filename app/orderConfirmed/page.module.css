@@ -1,0 +1,39 @@
+.order_confirmed {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 100px;
+}
+
+.right_panel {
+    width: 100%;
+    max-width: 595px;
+    margin-left: 30px;
+}
+
+@media (max-width: 992px) {
+    .order_confirmed {
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .right_panel {
+        max-width: 100%;
+        margin-top: 40px;
+        margin-left: 0;
+    }
+
+    .wrapper_orderSummary {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .order_confirmed {
+        margin-bottom: 30px;
+    }
+
+    .right_panel {
+        margin-top: 30px;
+    }
+}

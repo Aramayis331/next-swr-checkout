@@ -1,0 +1,86 @@
+.information {
+    width: 100%;
+    max-width: 975px;
+    background: var(--white);
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.title {
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 50px;
+}
+
+.strong_demand {
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--secondary);
+}
+
+.reserved {
+    background: var(--blue-100);
+    border-radius: 16px;
+    padding: 18px 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.reserved p {
+    font-weight: 600;
+    color: var(--secondary);
+}
+
+.contact_information {
+    margin-bottom: 50px;
+}
+
+.contact_information .checkbox_label {
+    color: var(--secondary);
+    line-height: 26px;
+}
+
+.shipping_method {
+    margin: 50px 0;
+}
+
+.contact_information > :not(:last-child), .shipping_method > :not(:last-child) {
+    margin-bottom: 24px;
+}
+
+@media (max-width: 992px) {
+    .title {
+        margin-bottom: 40px;
+    }
+    .strong_demand {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .information {
+        padding: 30px 16px;
+    }
+
+    .strong_demand {
+        font-size: 16px;
+    }
+
+    .reserved {
+        padding: 9px 15px;
+    }
+
+    .reserved p {
+        font-size: 14px;
+    }
+
+    .contact_information {
+        margin-bottom: 30px;
+    }
+
+    .shipping_method {
+        margin: 30px 0;
+    }
+}

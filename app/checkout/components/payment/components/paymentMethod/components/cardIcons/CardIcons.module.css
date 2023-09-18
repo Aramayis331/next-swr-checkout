@@ -1,0 +1,38 @@
+.card_variants {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_variants_icon {
+    width: 50px;
+    height: 30px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.card_variants_more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 31px;
+    color: var(--secondary);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    border: 1px solid var(--blue-300);
+    border-radius: 4px;
+    background: var(--white);
+}
+
+@media (max-width: 575px) {
+    .card_variants_icon {
+        width: 42px;
+        height: 26px;
+    }
+
+    .card_variants_more {
+        height: 26px;
+    }
+}

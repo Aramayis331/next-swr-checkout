@@ -1,0 +1,60 @@
+.express_checkout {
+    background: var(--white);
+    border: 1px solid var(--blue-400);
+    border-radius: 16px;
+    padding: 30px;
+}
+
+.express_checkout .title {
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+
+.container_checkout {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shop_pay, .pay_pal, .google_pay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 147px;
+    height: 50px;
+    border-radius: 16px;
+    margin-top: 15px;
+}
+
+.shop_pay {
+    background: rgba(90, 49, 244, 0.1);
+    border: 1px solid rgba(90, 49, 244, 0.6);
+    margin-right: 20px;
+}
+
+.pay_pal {
+    background: rgba(17, 57, 132, 0.1);
+    border: 1px solid rgba(17, 57, 132, 0.6);
+    margin-right: 20px;
+}
+
+.google_pay {
+    background: rgba(234, 64, 50, 0.1);
+    border: 1px solid rgba(234, 64, 50, 0.6);
+}
+
+@media (max-width: 575px) {
+    .express_checkout {
+        padding: 15px;
+    }
+
+    .shop_pay, .pay_pal, .google_pay {
+        width: 124px;
+    }
+
+    .shop_pay, .pay_pal {
+        margin-right: 15px;
+    }
+}

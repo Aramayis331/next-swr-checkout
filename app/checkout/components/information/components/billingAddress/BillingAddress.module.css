@@ -1,0 +1,9 @@
+.radio_group > :not(:last-child) {
+    margin-bottom: 24px;
+}
+
+@media (max-width: 575px) {
+    .different_address {
+        padding: 11px 15px;
+    }
+}

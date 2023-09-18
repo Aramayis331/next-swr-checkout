@@ -1,0 +1,43 @@
+.lifetime_warranty {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 30px;
+    background: rgba(151,156,173,0.1);
+    border-radius: 16px;
+}
+
+.lifetime_warranty .title {
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 7px;
+}
+
+.lifetime_warranty .sub_title {
+    max-width: 635px;
+    width: 100%;
+    color: var(--secondary);
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.lifetime_warranty .container_button {
+    width: 115px;
+    margin-left: 5px;
+}
+
+@media (max-width: 575px) {
+    .lifetime_warranty {
+        margin: 30px 0;
+        padding: 15px;
+        flex-wrap: wrap;
+    }
+    .lifetime_warranty .container_button {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}

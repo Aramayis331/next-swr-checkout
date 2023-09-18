@@ -1,0 +1,19 @@
+.product_description {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--secondary);
+    margin-bottom: 40px;
+}
+
+@media (max-width: 992px) {
+    .product_description {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 575px) {
+    .product_description {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,39 @@
+.radio_container {
+    background: rgba(239, 240, 245, 0.4);
+    padding: 11px 26px;
+    border-radius: 16px;
+}
+
+.radio_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.radio_label {
+    font-weight: 600;
+    color: var(--secondary);
+}
+
+.icon {
+    width: 50px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.children_container {
+    margin-top: 15px;
+    margin-bottom: 14px;
+}
+
+@media (max-width: 575px) {
+    .radio_container {
+        padding: 11px 15px;
+    }
+
+    .icon {
+        width: 42px;
+        height: 26px;
+    }
+}

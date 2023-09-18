@@ -1,0 +1,22 @@
+.address_form > :not(:last-child)  {
+    margin-bottom: 24px;
+}
+
+.firstName_lastName,.city_postCode {
+    display: flex;
+}
+
+.firstName_lastName > :last-child, .city_postCode > :last-child {
+    margin-left: 24px;
+}
+
+@media (max-width: 545px) {
+    .firstName_lastName,.city_postCode {
+        flex-direction: column;
+    }
+
+    .firstName_lastName > :last-child, .city_postCode > :last-child {
+        margin-left: 0;
+        margin-top: 24px;
+    }
+}
